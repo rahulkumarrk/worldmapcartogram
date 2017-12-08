@@ -1,6 +1,6 @@
 # worldmapcartogram
 world map cartogram
-setwd("C:/Users/Rahul Kumar/Desktop/scapetoad")
+setwd()
 
 #install.packages("maptools")
 #install.packages("rgdal")
@@ -13,7 +13,7 @@ world<-rgdal::readOGR("world-base-map.shp")
 library(rworldmap)
 #install.packages("shapefiles")
 #----------------------------------------------------------------
-path <- "C:/Users/Rahul Kumar/Desktop/fiscal drag"
+path <- ###
 setwd(path)
 
 gdpdata <- read.csv("gdp.csv", stringsAsFactors = F, sep = ",", na.strings = "n/a")
@@ -85,7 +85,7 @@ library(shapefiles)
 
 # Source of Data - https://www.imf.org/external/pubs/ft/weo/2017/01/weodata/index.aspx
 
-path <- "C:/Users/Rahul Kumar/Desktop/fiscal drag"
+path <- ###
 setwd(path)
 
 gdpdata <- read.csv("gdpd.csv", stringsAsFactors = F, sep = ",", na.strings = "n/a")
@@ -113,8 +113,8 @@ plot(afrc)
 
 tm_shape(afrc) + tm_fill("gdp", style="jenks") + tm_borders(col = "NA", lwd = 1, lty = "solid", alpha = 0.2) + tm_layout(frame=T)
 #########################################################################################################
-path1 <- "C:\\Users\\Rahul Kumar\\Desktop\\fiscal drag"
-setwd("C:/Users/Rahul Kumar/Desktop/scapetoad")
+path1 <- ##
+setwd()
 library(maptools)
 x <- rgdal::readOGR("world-base-map.shp")
 afrx <- rgdal::readOGR("afr.shp")
