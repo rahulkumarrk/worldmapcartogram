@@ -1,0 +1,33 @@
+CARTOGRAM COMPUTATION REPORT
+
+CARTOGRAM PARAMETERS:
+Cartogram layer: world-base-map
+Cartogram attribute: ID
+Attribute type: Population value
+Transformation quality: 75 of 100
+Cartogram grid size: 850 x 340
+Diffusion grid size: 512
+Diffusion iterations: 4
+
+CARTOGRAM LAYER & ATTRIBUTE STATISTICS:
+Number of features: 253
+Attribute mean value: 1.0780862283377944E12
+Attribute minimum value: 1.000000158161E12
+Attribute maximum value: 1.150155756028E12
+
+SIMULTANEOUSLY TRANSFORMED LAYERS:
+None
+
+CONSTRAINED DEFORMATION LAYERS:
+None
+
+CARTOGRAM ERROR
+The cartogram error is a measure for the quality of the result.
+Mean cartogram error: 159.50007346736407
+Standard deviation: 185.38534679659287
+25th percentile: 80.04455773998737
+50th percentile: 99.4802682501543
+75th percentile: 144.16578021974246
+Features with mean error +/- 1 standard deviation: 233 of 253 (92%)
+
+Computation time: 169 seconds
